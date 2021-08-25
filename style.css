@@ -1,0 +1,39 @@
+.header-logo {
+    float: left;
+    padding: 20px;
+    letter-spacing: 8px;
+    color: white;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 20px;
+    color: white;
+}
+
+.header-list {
+    float: right;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color:thistle;
+}
+
+.header {
+    background-color: rgba(3, 63, 99, 0.7);
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+footer {
+    padding-top: 30px;
+}
+  
